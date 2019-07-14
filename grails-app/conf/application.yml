@@ -2,7 +2,7 @@
 grails:
     profile: web
     codegen:
-        defaultPackage: karbin
+        defaultPackage: morfi
     gorm:
         reactor:
             # Whether to translate GORM events into Reactor events
