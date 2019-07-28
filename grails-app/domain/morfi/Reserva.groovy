@@ -51,7 +51,7 @@ class Reserva {
 
     Comensal comensal
     Restaurante restaurante
-    //   Estado estado = new Pendiente()
+    Estado estado = new Pendiente()
     Seña seña = Seña.SIN_SEÑA
     java.time.LocalDateTime fechaHora
     java.time.LocalDateTime fechaHoraAsistencia

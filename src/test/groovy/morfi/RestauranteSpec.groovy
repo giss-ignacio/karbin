@@ -17,6 +17,7 @@ class RestauranteSpec extends Specification implements DomainUnitTest<Restaurant
         Restaurante restaurante = new Restaurante('El Obrero')
 
         Reserva reserva1 = comensal.reservar(restaurante, java.time.LocalDateTime.now().minusMinutes(20))
+
         reserva1.concretar()
 
         Reserva reserva2 = comensal.reservar(restaurante, java.time.LocalDateTime.now())
